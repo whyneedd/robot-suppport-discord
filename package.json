@@ -1,0 +1,18 @@
+{
+  "name": "tutos-bot.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "wokcommands": "^1.3.6"
+  }
+}
