@@ -10,7 +10,7 @@ client.on("ready", async () => {
      client.user.setActivity("Your support", { type: "WATCHING"}); 
     })
     
-    client.on("message", message => {
+    client.on("message", async (message) => {
     if(message.content === `${prefix}ping`) {
         message.channel.send(`🏓 pong - ${client.ws.ping}`)
     }
