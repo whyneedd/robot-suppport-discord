@@ -7,7 +7,7 @@ client.on("ready", async () => {
     client.user.setStatus("idle");   
     console.log('bot => ok');
    
-     client.user.setActivity("Your support", { type: "WATCHING"}); 
+     client.user.setActivity("DeltaPlus en développement !", { type: "WATCHING"}); 
     })
     
     client.on("message", async (message) => {
